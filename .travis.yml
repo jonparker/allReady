@@ -1,0 +1,6 @@
+language: csharp
+dotnet: 2.1.2
+dist: trusty
+script:
+ - dotnet restore AllReadyApp\AllReady.Core\AllReady.Core.csproj
+ - dotnet restore AllReadyApp\Web-App\AllReady\AllReady.csproj
